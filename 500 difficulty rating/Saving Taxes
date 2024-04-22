@@ -1,0 +1,18 @@
+Difficulty:  252
+Pblm Name - Saving Taxes
+--------LOgic------------
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// jai mata rani
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    cout<<x-y<<endl;
+	}
+	return 0;
+
+}

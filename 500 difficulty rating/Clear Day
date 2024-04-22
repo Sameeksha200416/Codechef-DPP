@@ -1,0 +1,16 @@
+Difficulty:  233
+Pblm Name - Clear Day
+------------Logic--------------
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x,y;
+	cin>>x;
+	cin>>y;
+	int c = x+y;
+	cout<<7-c<<endl;
+	return 0;
+
+}

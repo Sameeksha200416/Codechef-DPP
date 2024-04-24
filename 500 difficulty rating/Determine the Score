@@ -1,0 +1,17 @@
+Difficulty:  267
+Pblm Name - Determine the Score
+----------LOGIC-----------------
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,n,x;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>x>>n;
+	    cout<<(x/10)*n<<endl;
+	}
+	return 0;
+}

@@ -1,0 +1,14 @@
+Difficulty:  264
+Pblm Name: How many unattempted problems
+---------------Logic---------------------
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x,y;
+	cin>>x>>y;
+	int p = x-y;
+	cout<<p<<endl;
+	return 0;
+}

@@ -1,0 +1,20 @@
+Difficulty:  273
+Pblm Name - Kitchen Timings
+---------------Logic-----------------
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int x,y;
+	    cin>>x>>y;
+	    int hours = y-x;
+	    cout<<hours<<endl;
+	}
+	return 0;
+
+}

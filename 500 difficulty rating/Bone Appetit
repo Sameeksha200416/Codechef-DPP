@@ -1,0 +1,18 @@
+Difficulty:  280
+Pblm Name -Bone Appetit
+--------Logic--------
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int m,n,x,y;
+	cin>>m>>n;
+	cin>>x>>y;
+	int bones = m*x;
+	int blood = n*y;
+	int sum = bones+blood;
+	cout<<sum<<endl;
+	return 0;
+	
+}

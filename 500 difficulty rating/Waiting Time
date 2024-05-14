@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,x,k;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>k>>x;  //x- no. of days  k- no. of weeks
+	    cout<<(7*k)-x<<endl;
+	}
+	return 0;
+}

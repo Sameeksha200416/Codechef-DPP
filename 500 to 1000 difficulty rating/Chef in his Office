@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int x,y;
+	    cin>>x>>y;
+	    int work = x*4;
+	    int sum = work+y;
+	    cout<<sum<<endl;
+	}
+	return 0;
+}
